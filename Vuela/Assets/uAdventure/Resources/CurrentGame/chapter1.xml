@@ -1,0 +1,1816 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE eAdventure PUBLIC "SYSTEM" "eadventure.dtd">
+<eAdventure version="2">
+  <player>
+    <resources name="No name">
+      <asset type="standup" uri="assets/special/EmptyAnimation" />
+      <asset type="standdown" uri="assets/special/EmptyAnimation" />
+      <asset type="standright" uri="assets/special/EmptyAnimation" />
+      <asset type="standleft" uri="assets/special/EmptyAnimation" />
+      <asset type="speakup" uri="assets/special/EmptyAnimation" />
+      <asset type="speakdown" uri="assets/special/EmptyAnimation" />
+      <asset type="speakright" uri="assets/special/EmptyAnimation" />
+      <asset type="speakleft" uri="assets/special/EmptyAnimation" />
+      <asset type="useright" uri="assets/special/EmptyAnimation" />
+      <asset type="useleft" uri="assets/special/EmptyAnimation" />
+      <asset type="walkup" uri="assets/special/EmptyAnimation" />
+      <asset type="walkdown" uri="assets/special/EmptyAnimation" />
+      <asset type="walkright" uri="assets/special/EmptyAnimation" />
+      <asset type="walkleft" uri="assets/special/EmptyAnimation" />
+    </resources>
+    <textcolor showsSpeechBubble="no" bubbleBkgColor="#FFFFFF" bubbleBorderColor="#000000">
+      <frontcolor color="#FFFFFF" />
+      <bordercolor color="#000000" />
+    </textcolor>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+    <voice name="" synthesizeAlways="no" />
+  </player>
+  <character id="invisible">
+    <resources name="No name">
+      <asset type="standup" uri="assets/special/EmptyAnimation" />
+      <asset type="standdown" uri="assets/animation/nadie.eaa.xml" />
+      <asset type="standright" uri="assets/special/EmptyAnimation" />
+      <asset type="standleft" uri="assets/special/EmptyAnimation" />
+      <asset type="speakup" uri="assets/special/EmptyAnimation" />
+      <asset type="speakdown" uri="assets/special/EmptyAnimation" />
+      <asset type="speakright" uri="assets/special/EmptyAnimation" />
+      <asset type="speakleft" uri="assets/special/EmptyAnimation" />
+      <asset type="useright" uri="assets/special/EmptyAnimation" />
+      <asset type="useleft" uri="assets/special/EmptyAnimation" />
+      <asset type="walkup" uri="assets/special/EmptyAnimation" />
+      <asset type="walkdown" uri="assets/special/EmptyAnimation" />
+      <asset type="walkright" uri="assets/special/EmptyAnimation" />
+      <asset type="walkleft" uri="assets/special/EmptyAnimation" />
+    </resources>
+    <textcolor showsSpeechBubble="no" bubbleBkgColor="#FFFFFF" bubbleBorderColor="#000000">
+      <frontcolor color="#FFFFFF" />
+      <bordercolor color="#000000" />
+    </textcolor>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+    <voice name="" synthesizeAlways="no" />
+    <actions>
+      <talk-to needsGoTo="yes" keepDistance="35" not-effects="no">
+        <effect>
+          <trigger-conversation idTarget="Test" />
+          <condition />
+          <trigger-scene idTarget="Creditos" x="960" y="810" transitionTime="0" transitionType="0" />
+          <condition />
+        </effect>
+      </talk-to>
+    </actions>
+  </character>
+  <unity-scene id="Menu" scene="Assets/Scenes/Menu.unity" start="no" />
+  <unity-scene id="Menu_Options" scene="Assets/Scenes/Menu_Options.unity" start="no" />
+  <unity-scene id="Maleta" scene="Assets/Scenes/SuitcasePuzzle.unity" start="no" />
+  <unity-scene id="Creditos" scene="Assets/Scenes/Creditos.unity" start="no" />
+  <scene id="PapersPleaseFermin" hideInventory="yes" start="no" playerLayer="-1" playerScale="1" class="accesible" type="area">
+    <documentation>
+    </documentation>
+    <resources name="No name">
+      <asset type="background" uri="assets/background/Background.png" />
+    </resources>
+    <name>
+    </name>
+    <default-initial-position x="400" y="450" />
+    <objects>
+      <object-ref idTarget="Fermin" x="316" y="822" scale="1.632562" layer="8" hasInfluenceArea="no" />
+      <object-ref idTarget="billeteFermin" x="1331" y="1017" scale="1.182206" layer="7" hasInfluenceArea="no" />
+      <object-ref idTarget="docFermin" x="1083" y="624" scale="0.4528731" layer="0" hasInfluenceArea="no" />
+      <object-ref idTarget="maletavacia" x="1675" y="385" scale="0.4239093" layer="1" hasInfluenceArea="no" />
+      <object-ref idTarget="ok" x="130" y="1048" scale="0.09563289" layer="6" hasInfluenceArea="no" />
+      <object-ref idTarget="no" x="550" y="1048" scale="0.3" layer="5" hasInfluenceArea="no" />
+      <object-ref idTarget="info" x="325" y="1075" scale="0.1837933" layer="4" hasInfluenceArea="no" />
+      <object-ref idTarget="infoGrande" x="948" y="1015" scale="1.339541" layer="9" hasInfluenceArea="no" />
+    </objects>
+    <characters>
+      <character-ref idTarget="invisible" x="321" y="584" scale="3.329587" orientation="2" layer="2" hasInfluenceArea="no" />
+    </characters>
+    <atrezzo>
+      <atrezzo-ref idTarget="horaprim" x="110" y="132" scale="0.3525738" layer="3" />
+    </atrezzo>
+  </scene>
+  <scene id="paperspleaseMaria" hideInventory="yes" start="no" playerLayer="-1" playerScale="1" class="accesible" type="area">
+    <documentation>
+    </documentation>
+    <resources name="No name">
+      <asset type="background" uri="assets/background/Background.png" />
+    </resources>
+    <name>
+    </name>
+    <default-initial-position x="400" y="450" />
+    <objects>
+      <object-ref idTarget="info" x="325" y="1075" scale="0.1839" layer="9" hasInfluenceArea="no" />
+      <object-ref idTarget="infoGrande" x="948" y="1015" scale="1.3395" layer="8" hasInfluenceArea="no" />
+      <object-ref idTarget="billetemaria" x="1331" y="1017" scale="1.182" layer="7" hasInfluenceArea="no" />
+      <object-ref idTarget="docmaaria" x="1083" y="624" scale="0.4528" layer="6" hasInfluenceArea="no" />
+      <object-ref idTarget="maletamaria" x="1675" y="387" scale="0.423" layer="5" hasInfluenceArea="no" />
+      <object-ref idTarget="no" x="550" y="1048" scale="0.3" layer="4" hasInfluenceArea="no" />
+      <object-ref idTarget="ok" x="130" y="1048" scale="0.096" layer="3" hasInfluenceArea="no" />
+    </objects>
+    <characters>
+      <character-ref idTarget="invisible" x="268" y="563" scale="2.616907" orientation="2" layer="0" hasInfluenceArea="no" />
+    </characters>
+    <atrezzo>
+      <atrezzo-ref idTarget="maria" x="273" y="821" scale="1.589591" layer="2" />
+      <atrezzo-ref idTarget="horaprim" x="110" y="132" scale="0.352" layer="1" />
+    </atrezzo>
+  </scene>
+  <scene id="papersMarcos" hideInventory="yes" start="no" playerLayer="-1" playerScale="1" class="accesible" type="area">
+    <documentation>
+    </documentation>
+    <resources name="No name">
+      <asset type="background" uri="assets/background/Background.png" />
+    </resources>
+    <name>
+    </name>
+    <default-initial-position x="400" y="450" />
+    <objects>
+      <object-ref idTarget="info" x="325" y="1075" scale="0.18379" layer="9" hasInfluenceArea="no" />
+      <object-ref idTarget="infoGrande" x="948" y="1015" scale="1.3395" layer="8" hasInfluenceArea="no" />
+      <object-ref idTarget="no" x="550" y="1048" scale="0.3" layer="7" hasInfluenceArea="no" />
+      <object-ref idTarget="ok" x="130" y="1048" scale="0.095" layer="6" hasInfluenceArea="no" />
+    </objects>
+    <characters>
+      <character-ref idTarget="invisible" x="305" y="604" scale="2.60274" orientation="2" layer="0" hasInfluenceArea="no" />
+    </characters>
+    <atrezzo>
+      <atrezzo-ref idTarget="Marcos" x="303" y="823" scale="2.25" layer="5" />
+      <atrezzo-ref idTarget="docMarcos" x="1108" y="675" scale="0.5653163" layer="4" />
+      <atrezzo-ref idTarget="billeteMarcos" x="1331" y="1017" scale="1.192" layer="3" />
+      <atrezzo-ref idTarget="maletaVacia2" x="1675" y="387" scale="0.423" layer="1" />
+      <atrezzo-ref idTarget="horaprim" x="110" y="132" scale="0.352" layer="2" />
+    </atrezzo>
+  </scene>
+  <scene id="papersLicinia" hideInventory="yes" start="no" playerLayer="-1" playerScale="1" class="accesible" type="area">
+    <documentation>
+    </documentation>
+    <resources name="No name">
+      <asset type="background" uri="assets/background/Background.png" />
+    </resources>
+    <name>
+    </name>
+    <default-initial-position x="400" y="450" />
+    <objects>
+      <object-ref idTarget="info" x="325" y="1075" scale="0.18379" layer="7" hasInfluenceArea="no" />
+      <object-ref idTarget="infoGrande" x="948" y="1015" scale="1.3395" layer="6" hasInfluenceArea="no" />
+      <object-ref idTarget="no" x="550" y="1048" scale="0.3" layer="5" hasInfluenceArea="no" />
+      <object-ref idTarget="ok" x="130" y="1048" scale="0.095" layer="4" hasInfluenceArea="no" />
+    </objects>
+    <characters>
+      <character-ref idTarget="invisible" x="307" y="571" scale="2.6" orientation="2" layer="1" hasInfluenceArea="no" />
+    </characters>
+    <atrezzo>
+      <atrezzo-ref idTarget="Licinia" x="313" y="822" scale="1.411893" layer="3" />
+      <atrezzo-ref idTarget="maletaVacia2" x="1675" y="387" scale="0.423" layer="0" />
+      <atrezzo-ref idTarget="horaprim" x="110" y="132" scale="0.352" layer="2" />
+    </atrezzo>
+  </scene>
+  <scene id="papersNathan" hideInventory="yes" start="no" playerLayer="-1" playerScale="1" class="accesible" type="area">
+    <documentation>
+    </documentation>
+    <resources name="No name">
+      <asset type="background" uri="assets/background/Background.png" />
+    </resources>
+    <name>
+    </name>
+    <default-initial-position x="400" y="450" />
+    <objects>
+      <object-ref idTarget="info" x="325" y="1075" scale="0.18379" layer="7" hasInfluenceArea="no" />
+      <object-ref idTarget="infoGrande" x="948" y="1015" scale="1.3395" layer="9" hasInfluenceArea="no" />
+      <object-ref idTarget="no" x="550" y="1048" scale="0.3" layer="6" hasInfluenceArea="no" />
+      <object-ref idTarget="ok" x="130" y="1048" scale="0.095" layer="5" hasInfluenceArea="no" />
+    </objects>
+    <characters>
+      <character-ref idTarget="invisible" x="283" y="540" scale="1.648359" orientation="2" layer="1" hasInfluenceArea="no" />
+    </characters>
+    <atrezzo>
+      <atrezzo-ref idTarget="Nathan" x="287" y="823" scale="1.462261" layer="8" />
+      <atrezzo-ref idTarget="docNathan" x="1083" y="624" scale="0.4528" layer="4" />
+      <atrezzo-ref idTarget="bNathan" x="1331" y="1017" scale="1.182" layer="3" />
+      <atrezzo-ref idTarget="maletaBotella" x="1675" y="387" scale="0.423" layer="0" />
+      <atrezzo-ref idTarget="horaprim" x="110" y="132" scale="0.352" layer="2" />
+    </atrezzo>
+  </scene>
+  <scene id="papersJorge" hideInventory="yes" start="no" playerLayer="-1" playerScale="1" class="accesible" type="area">
+    <documentation>
+    </documentation>
+    <resources name="No name">
+      <asset type="background" uri="assets/background/Background.png" />
+    </resources>
+    <name>
+    </name>
+    <default-initial-position x="400" y="450" />
+    <objects>
+      <object-ref idTarget="info" x="325" y="1075" scale="0.18379" layer="9" hasInfluenceArea="no" />
+      <object-ref idTarget="infoGrande" x="948" y="1015" scale="1.3395" layer="8" hasInfluenceArea="no" />
+      <object-ref idTarget="no" x="550" y="1048" scale="0.3" layer="7" hasInfluenceArea="no" />
+      <object-ref idTarget="ok" x="130" y="1048" scale="0.095" layer="6" hasInfluenceArea="no" />
+    </objects>
+    <characters>
+      <character-ref idTarget="invisible" x="251" y="521" scale="1.586714" orientation="2" layer="0" hasInfluenceArea="no" />
+    </characters>
+    <atrezzo>
+      <atrezzo-ref idTarget="jorge" x="249" y="823" scale="1.487898" layer="5" />
+      <atrezzo-ref idTarget="maletaVacia2" x="1675" y="387" scale="0.423" layer="4" />
+      <atrezzo-ref idTarget="docjorge" x="1083" y="624" scale="0.4528" layer="3" />
+      <atrezzo-ref idTarget="bjorge" x="1331" y="1017" scale="1.182" layer="2" />
+      <atrezzo-ref idTarget="hora15" x="110" y="132" scale="0.352" layer="1" />
+    </atrezzo>
+  </scene>
+  <scene id="papersGideon" hideInventory="yes" start="no" playerLayer="-1" playerScale="1" class="accesible" type="area">
+    <documentation>
+    </documentation>
+    <resources name="No name">
+      <asset type="background" uri="assets/background/Background.png" />
+    </resources>
+    <name>
+    </name>
+    <default-initial-position x="400" y="450" />
+    <objects>
+      <object-ref idTarget="info" x="325" y="1075" scale="0.18379" layer="9" hasInfluenceArea="no" />
+      <object-ref idTarget="infoGrande" x="950" y="1015" scale="1.3395" layer="8" hasInfluenceArea="no" />
+      <object-ref idTarget="no" x="550" y="1048" scale="0.3" layer="7" hasInfluenceArea="no" />
+      <object-ref idTarget="ok" x="130" y="1048" scale="0.095" layer="6" hasInfluenceArea="no" />
+    </objects>
+    <characters>
+      <character-ref idTarget="invisible" x="307" y="564" scale="2.6" orientation="2" layer="0" hasInfluenceArea="no" />
+    </characters>
+    <atrezzo>
+      <atrezzo-ref idTarget="gideon" x="315" y="823" scale="1.611237" layer="5" />
+      <atrezzo-ref idTarget="docgideon" x="1083" y="624" scale="0.4528" layer="4" />
+      <atrezzo-ref idTarget="bgideon" x="1331" y="1017" scale="1.182" layer="3" />
+      <atrezzo-ref idTarget="maletaVacia2" x="1675" y="387" scale="0.423" layer="1" />
+      <atrezzo-ref idTarget="hora15" x="110" y="132" scale="0.352" layer="2" />
+    </atrezzo>
+  </scene>
+  <scene id="papersAlizee" hideInventory="yes" start="no" playerLayer="-1" playerScale="1" class="accesible" type="area">
+    <documentation>
+    </documentation>
+    <resources name="No name">
+      <asset type="background" uri="assets/background/Background.png" />
+    </resources>
+    <name>
+    </name>
+    <default-initial-position x="400" y="450" />
+    <objects>
+      <object-ref idTarget="info" x="325" y="1075" scale="0.18379" layer="9" hasInfluenceArea="no" />
+      <object-ref idTarget="infoGrande" x="948" y="1015" scale="1.3395" layer="8" hasInfluenceArea="no" />
+      <object-ref idTarget="no" x="550" y="1048" scale="0.3" layer="7" hasInfluenceArea="no" />
+      <object-ref idTarget="ok" x="130" y="1048" scale="0.095" layer="6" hasInfluenceArea="no" />
+    </objects>
+    <characters>
+      <character-ref idTarget="invisible" x="318" y="617" scale="2.6" orientation="2" layer="0" hasInfluenceArea="no" />
+    </characters>
+    <atrezzo>
+      <atrezzo-ref idTarget="maletaVacia2" x="1675" y="387" scale="0.423" layer="5" />
+      <atrezzo-ref idTarget="alizee" x="317" y="821" scale="1.330049" layer="4" />
+      <atrezzo-ref idTarget="balizee" x="1331" y="1017" scale="1.182" layer="3" />
+      <atrezzo-ref idTarget="docalizee" x="1108" y="675" scale="0.565" layer="1" />
+      <atrezzo-ref idTarget="hora15" x="110" y="132" scale="0.352" layer="2" />
+    </atrezzo>
+  </scene>
+  <scene id="papersSophie" hideInventory="yes" start="no" playerLayer="-1" playerScale="1" class="accesible" type="area">
+    <documentation>
+    </documentation>
+    <resources name="No name">
+      <asset type="background" uri="assets/background/Background.png" />
+    </resources>
+    <name>
+    </name>
+    <default-initial-position x="400" y="450" />
+    <objects>
+      <object-ref idTarget="info" x="325" y="1075" scale="0.18379" layer="6" hasInfluenceArea="no" />
+      <object-ref idTarget="infoGrande" x="948" y="1015" scale="1.3395" layer="9" hasInfluenceArea="no" />
+      <object-ref idTarget="no" x="550" y="1048" scale="0.3" layer="2" hasInfluenceArea="no" />
+      <object-ref idTarget="ok" x="130" y="1048" scale="0.095" layer="1" hasInfluenceArea="no" />
+    </objects>
+    <characters>
+      <character-ref idTarget="invisible" x="253" y="636" scale="2.6" orientation="2" layer="4" hasInfluenceArea="no" />
+    </characters>
+    <atrezzo>
+      <atrezzo-ref idTarget="sophie" x="239" y="823" scale="1.339404" layer="8" />
+      <atrezzo-ref idTarget="bsophie" x="1331" y="1017" scale="1.182" layer="7" />
+      <atrezzo-ref idTarget="docsophie" x="1108" y="675" scale="0.565" layer="5" />
+      <atrezzo-ref idTarget="maletaVacia2" x="1675" y="387" scale="0.423" layer="3" />
+      <atrezzo-ref idTarget="hora15" x="110" y="132" scale="0.352" layer="0" />
+    </atrezzo>
+  </scene>
+  <scene id="papersDenis" hideInventory="yes" start="no" playerLayer="-1" playerScale="1" class="accesible" type="area">
+    <documentation>
+    </documentation>
+    <resources name="No name">
+      <asset type="background" uri="assets/background/Background.png" />
+    </resources>
+    <name>
+    </name>
+    <default-initial-position x="400" y="450" />
+    <objects>
+      <object-ref idTarget="info" x="325" y="1075" scale="0.18379" layer="9" hasInfluenceArea="no" />
+      <object-ref idTarget="infoGrande" x="948" y="1015" scale="1.3395" layer="8" hasInfluenceArea="no" />
+      <object-ref idTarget="no" x="550" y="1048" scale="0.3" layer="7" hasInfluenceArea="no" />
+      <object-ref idTarget="ok" x="130" y="1048" scale="0.095" layer="6" hasInfluenceArea="no" />
+    </objects>
+    <characters>
+      <character-ref idTarget="invisible" x="308" y="588" scale="2.6" orientation="2" layer="0" hasInfluenceArea="no" />
+    </characters>
+    <atrezzo>
+      <atrezzo-ref idTarget="denis" x="324" y="822" scale="1.470259" layer="5" />
+      <atrezzo-ref idTarget="bdenis" x="1331" y="1017" scale="1" layer="4" />
+      <atrezzo-ref idTarget="docdenis" x="1083" y="624" scale="0.4528" layer="2" />
+      <atrezzo-ref idTarget="maletaVacia2" x="1675" y="387" scale="0.423" layer="1" />
+      <atrezzo-ref idTarget="horatres" x="110" y="132" scale="0.352" layer="3" />
+    </atrezzo>
+  </scene>
+  <scene id="PapersLicinia2" hideInventory="yes" start="no" playerLayer="-1" playerScale="1" class="accesible" type="area">
+    <documentation>
+    </documentation>
+    <resources name="No name">
+      <asset type="background" uri="assets/background/Background.png" />
+    </resources>
+    <name>
+    </name>
+    <default-initial-position x="400" y="450" />
+    <objects>
+      <object-ref idTarget="info" x="325" y="1075" scale="0.18379" layer="9" hasInfluenceArea="no" />
+      <object-ref idTarget="infoGrande" x="948" y="1015" scale="1.3395" layer="8" hasInfluenceArea="no" />
+      <object-ref idTarget="ok" x="130" y="1048" scale="0.095" layer="7" hasInfluenceArea="no" />
+      <object-ref idTarget="no" x="550" y="1048" scale="0.3" layer="6" hasInfluenceArea="no" />
+    </objects>
+    <characters>
+      <character-ref idTarget="invisible" x="304" y="627" scale="2.695908" orientation="2" layer="0" hasInfluenceArea="no" />
+    </characters>
+    <atrezzo>
+      <atrezzo-ref idTarget="maletaVacia2" x="1675" y="387" scale="0.423" layer="5" />
+      <atrezzo-ref idTarget="doclicinia" x="1108" y="675" scale="0.565" layer="4" />
+      <atrezzo-ref idTarget="Licinia" x="303" y="825" scale="1.470431" layer="3" />
+      <atrezzo-ref idTarget="blicinia" x="1331" y="1017" scale="1.182" layer="2" />
+      <atrezzo-ref idTarget="horatres" x="110" y="132" scale="0.352" layer="1" />
+    </atrezzo>
+  </scene>
+  <scene id="test1" hideInventory="yes" start="yes" playerLayer="-1" playerScale="1" class="accesible" type="area">
+    <documentation>
+    </documentation>
+    <resources name="No name">
+      <asset type="background" uri="assets/background/fondo.png" />
+    </resources>
+    <name>
+    </name>
+    <default-initial-position x="400" y="450" />
+    <characters>
+      <character-ref idTarget="invisible" x="994" y="751" scale="9.270958" orientation="2" layer="0" hasInfluenceArea="no" />
+    </characters>
+  </scene>
+  <object id="infoGrande" returnsWhenDragged="yes" behaviour="normal" resources-transition-time="0">
+    <resources name="No name">
+      <condition>
+        <active flag="infoGrande" />
+      </condition>
+      <asset type="image" uri="assets/image/requisitos.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+    <actions>
+      <examine needsGoTo="no" keepDistance="0" not-effects="no">
+        <condition>
+          <active flag="infoGrande" />
+        </condition>
+        <effect>
+          <deactivate flag="infoGrande" />
+          <condition />
+        </effect>
+      </examine>
+    </actions>
+  </object>
+  <object id="info" returnsWhenDragged="yes" behaviour="normal" resources-transition-time="0">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/requisitos.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+    <actions>
+      <examine needsGoTo="no" keepDistance="0" not-effects="no">
+        <effect>
+          <activate flag="infoGrande" />
+          <condition />
+        </effect>
+      </examine>
+    </actions>
+  </object>
+  <object id="ok" returnsWhenDragged="yes" behaviour="normal" resources-transition-time="0">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/ok.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+    <actions>
+      <use needsGoTo="yes" keepDistance="35" not-effects="no">
+        <effect>
+          <trigger-conversation idTarget="Correcto" />
+          <condition />
+        </effect>
+      </use>
+    </actions>
+  </object>
+  <object id="no" returnsWhenDragged="yes" behaviour="normal" resources-transition-time="0">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/no.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+    <actions>
+      <use needsGoTo="yes" keepDistance="35" not-effects="no">
+        <effect>
+          <trigger-conversation idTarget="Fallo" />
+          <condition />
+        </effect>
+      </use>
+    </actions>
+  </object>
+  <object id="Fermin" returnsWhenDragged="yes" behaviour="normal" resources-transition-time="0">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/Fermín .png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+  </object>
+  <object id="billeteFermin" returnsWhenDragged="yes" behaviour="normal" resources-transition-time="0">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/biillete Fermin.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+  </object>
+  <object id="docFermin" returnsWhenDragged="yes" behaviour="normal" resources-transition-time="0">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/d Fermin.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+  </object>
+  <object id="maletavacia" returnsWhenDragged="yes" behaviour="normal" resources-transition-time="0">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/maletaVacia.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+  </object>
+  <object id="billetemaria" returnsWhenDragged="yes" behaviour="normal" resources-transition-time="0">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/b Maria.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+  </object>
+  <object id="docmaaria" returnsWhenDragged="yes" behaviour="normal" resources-transition-time="0">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/d Maria.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+  </object>
+  <object id="maletamaria" returnsWhenDragged="yes" behaviour="normal" resources-transition-time="0">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/maletaTijeras.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+  </object>
+  <graph-conversation id="Correcto">
+    <dialogue-node nodeindex="0" editor-x="313" editor-y="104">
+      <speak-player>
+        <resources name="No name" />
+        <text>Todo correcto, puede continuar.</text>
+      </speak-player>
+      <condition>
+        <either>
+          <equals var="Escena" value="0" />
+          <equals var="Escena" value="2" />
+          <equals var="Escena" value="6" />
+          <equals var="Escena" value="8" />
+        </either>
+      </condition>
+      <speak-char idTarget="invisible">
+        <resources name="No name" />
+        <text>¿Está seguro?</text>
+      </speak-char>
+      <condition>
+        <either>
+          <equals var="Escena" value="1" />
+          <equals var="Escena" value="3" />
+          <equals var="Escena" value="4" />
+          <equals var="Escena" value="5" />
+          <equals var="Escena" value="7" />
+          <equals var="Escena" value="9" />
+          <equals var="Escena" value="10" />
+        </either>
+      </condition>
+      <end-conversation>
+        <effect>
+          <trigger-scene idTarget="paperspleaseMaria" x="960" y="810" transitionTime="1000" transitionType="5" />
+          <condition>
+            <equals var="Escena" value="0" />
+          </condition>
+          <trigger-scene idTarget="papersLicinia" x="960" y="810" transitionTime="1000" transitionType="5" />
+          <condition>
+            <equals var="Escena" value="2" />
+          </condition>
+          <trigger-scene idTarget="papersAlizee" x="960" y="810" transitionTime="1000" transitionType="5" />
+          <condition>
+            <equals var="Escena" value="6" />
+          </condition>
+          <trigger-scene idTarget="papersDenis" x="960" y="810" transitionTime="1000" transitionType="5" />
+          <condition>
+            <equals var="Escena" value="8" />
+          </condition>
+          <increment var="Escena" value="1" />
+          <condition>
+            <either>
+              <equals var="Escena" value="0" />
+              <equals var="Escena" value="2" />
+              <equals var="Escena" value="6" />
+              <equals var="Escena" value="8" />
+            </either>
+          </condition>
+        </effect>
+      </end-conversation>
+    </dialogue-node>
+  </graph-conversation>
+  <graph-conversation id="Fallo">
+    <option-node nodeindex="0" preListening="yes" editor-x="0" editor-y="2" x="0" y="2">
+      <speak-player>
+        <text>Falta documentación</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="1" />
+      <speak-player>
+        <text>Existen discrepancias entre los datos de su documentación</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="2" />
+      <speak-player>
+        <text>Hay un objeto peligroso en el equipaje de mano</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="3" />
+      <speak-player>
+        <text>Queda menos de una hora antes de que se inicie el vuelo</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="4" />
+    </option-node>
+    <dialogue-node nodeindex="1" editor-x="683" editor-y="18">
+      <speak-char idTarget="invisible">
+        <resources name="No name" />
+        <text>La tengo en la maleta, espere un segundo...</text>
+      </speak-char>
+      <condition>
+        <equals var="Escena" value="3" />
+      </condition>
+      <speak-player>
+        <resources name="No name" />
+        <text>Lo lamento, pero tendrá que ir al final de la cola.</text>
+      </speak-player>
+      <condition>
+        <equals var="Escena" value="3" />
+      </condition>
+      <speak-char idTarget="invisible">
+        <resources name="No name" />
+        <text>No, lo he traído todo.</text>
+      </speak-char>
+      <condition>
+        <either>
+          <less-than var="Escena" value="3" />
+          <greater-than var="Escena" value="3" />
+        </either>
+      </condition>
+      <end-conversation>
+        <effect>
+          <trigger-scene idTarget="papersNathan" x="960" y="810" transitionTime="1000" transitionType="5" />
+          <condition>
+            <equals var="Escena" value="3" />
+          </condition>
+          <set-value var="Escena" value="0" />
+          <condition>
+            <equals var="Escena" value="10" />
+          </condition>
+          <increment var="Escena" value="1" />
+          <condition>
+            <equals var="Escena" value="3" />
+          </condition>
+        </effect>
+      </end-conversation>
+    </dialogue-node>
+    <dialogue-node nodeindex="2" editor-x="52" editor-y="382">
+      <speak-char idTarget="invisible">
+        <resources name="No name" />
+        <text>Todos los datos bien.</text>
+      </speak-char>
+      <condition>
+        <either>
+          <equals var="Escena" value="0" />
+          <equals var="Escena" value="1" />
+          <equals var="Escena" value="2" />
+          <equals var="Escena" value="4" />
+          <equals var="Escena" value="6" />
+          <equals var="Escena" value="8" />
+          <equals var="Escena" value="10" />
+        </either>
+      </condition>
+      <speak-player>
+        <resources name="No name" />
+        <text>Usted no es la de la foto de su pasaporte.</text>
+      </speak-player>
+      <condition>
+        <equals var="Escena" value="9" />
+      </condition>
+      <speak-player>
+        <resources name="No name" />
+        <text>El apellido que aparece en su billete y en su DNI no concuerdan</text>
+      </speak-player>
+      <condition>
+        <equals var="Escena" value="7" />
+      </condition>
+      <speak-player>
+        <resources name="No name" />
+        <text>No coincide el número de identidad en su billete y su DNI</text>
+      </speak-player>
+      <condition>
+        <equals var="Escena" value="5" />
+      </condition>
+      <speak-char idTarget="invisible">
+        <resources name="No name" />
+        <text>No se la he entregado.</text>
+      </speak-char>
+      <condition>
+        <equals var="Escena" value="3" />
+      </condition>
+      <end-conversation>
+        <effect>
+          <trigger-scene idTarget="papersGideon" x="960" y="810" transitionTime="1000" transitionType="5" />
+          <condition>
+            <equals var="Escena" value="5" />
+          </condition>
+          <trigger-scene idTarget="papersSophie" x="960" y="810" transitionTime="1000" transitionType="5" />
+          <condition>
+            <equals var="Escena" value="7" />
+          </condition>
+          <trigger-scene idTarget="PapersLicinia2" x="960" y="810" transitionTime="1000" transitionType="5" />
+          <condition>
+            <equals var="Escena" value="9" />
+          </condition>
+          <increment var="Escena" value="1" />
+          <condition>
+            <either>
+              <equals var="Escena" value="5" />
+              <equals var="Escena" value="7" />
+              <equals var="Escena" value="9" />
+            </either>
+          </condition>
+        </effect>
+      </end-conversation>
+    </dialogue-node>
+    <dialogue-node nodeindex="3" editor-x="778" editor-y="526">
+      <speak-player>
+        <resources name="No name" />
+        <text>No puede llevar unas tijeras de ese tamaño en el equipaje de mano.</text>
+      </speak-player>
+      <condition>
+        <equals var="Escena" value="1" />
+      </condition>
+      <speak-player>
+        <resources name="No name" />
+        <text>No pueden introducirse botellas de más de 100 ml en el equipaje de mano.</text>
+      </speak-player>
+      <condition>
+        <equals var="Escena" value="4" />
+      </condition>
+      <speak-char idTarget="invisible">
+        <resources name="No name" />
+        <text>No llevo nada peligroso.</text>
+      </speak-char>
+      <condition>
+        <either>
+          <equals var="Escena" value="0" />
+          <equals var="Escena" value="2" />
+          <equals var="Escena" value="3" />
+          <greater-equals-than var="Escena" value="5" />
+        </either>
+      </condition>
+      <end-conversation>
+        <effect>
+          <trigger-scene idTarget="papersMarcos" x="960" y="810" transitionTime="1000" transitionType="5" />
+          <condition>
+            <equals var="Escena" value="1" />
+          </condition>
+          <trigger-scene idTarget="papersJorge" x="960" y="810" transitionTime="1000" transitionType="5" />
+          <condition>
+            <equals var="Escena" value="4" />
+          </condition>
+          <increment var="Escena" value="1" />
+          <condition>
+            <either>
+              <equals var="Escena" value="1" />
+              <equals var="Escena" value="4" />
+            </either>
+          </condition>
+        </effect>
+      </end-conversation>
+    </dialogue-node>
+    <dialogue-node nodeindex="4" editor-x="530" editor-y="247">
+      <speak-char idTarget="invisible">
+        <resources name="No name" />
+        <text>De eso nada, queda más tiempo.</text>
+      </speak-char>
+      <condition>
+        <less-than var="Escena" value="10" />
+      </condition>
+      <speak-player>
+        <resources name="No name" />
+        <text>Lo siento, pero queda menos de una hora, y ya no puedo dejarla pasar.</text>
+      </speak-player>
+      <condition>
+        <equals var="Escena" value="10" />
+      </condition>
+      <end-conversation>
+        <effect>
+          <trigger-scene idTarget="Menu" x="960" y="810" transitionTime="1000" transitionType="5" />
+          <condition>
+            <equals var="Escena" value="10" />
+          </condition>
+        </effect>
+      </end-conversation>
+    </dialogue-node>
+  </graph-conversation>
+  <graph-conversation id="Test">
+    <dialogue-node nodeindex="0" editor-x="50" editor-y="50">
+      <speak-char idTarget="invisible">
+        <resources name="No name" />
+        <text>¿Se puede abrir la puerta del avión durante el vuelo?</text>
+      </speak-char>
+      <condition />
+      <child nodeindex="1" />
+    </dialogue-node>
+    <option-node nodeindex="1" random="yes" keepShowing="yes" preListening="yes" editor-x="285" editor-y="50" x="285" y="50">
+      <speak-player>
+        <text>Sí. claro.</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="2" />
+      <speak-player>
+        <text>Solo en caso de emergencia.</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="2" />
+      <speak-player>
+        <text>No, nunca.</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="3" />
+      <speak-player>
+        <text>Si el piloto lo indica, sí.</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="2" />
+    </option-node>
+    <dialogue-node nodeindex="2" editor-x="577" editor-y="51">
+      <speak-char idTarget="invisible">
+        <resources name="No name" />
+        <text>Incorrecto. Las puertas del avión no se deben abrir durante el vuelo en ningún caso.</text>
+      </speak-char>
+      <condition />
+      <child nodeindex="4" />
+    </dialogue-node>
+    <dialogue-node nodeindex="3" editor-x="789" editor-y="184">
+      <speak-char idTarget="invisible">
+        <resources name="No name" />
+        <text>Correcto. Nunca se debe abrir una de las puertas del avión en el aire, ni siquiera las de emergencia.</text>
+      </speak-char>
+      <condition />
+      <child nodeindex="4" />
+      <effect>
+        <increment var="preguntasAcertadas" value="1" />
+        <condition />
+      </effect>
+    </dialogue-node>
+    <dialogue-node nodeindex="4" editor-x="34" editor-y="371">
+      <speak-char idTarget="invisible">
+        <resources name="No name" />
+        <text>Si vas a un país con otra moneda, ¿dónde es mejor cambiarla?</text>
+      </speak-char>
+      <condition />
+      <child nodeindex="5" />
+    </dialogue-node>
+    <option-node nodeindex="5" random="yes" keepShowing="yes" preListening="yes" editor-x="278" editor-y="420" x="278" y="420">
+      <speak-player>
+        <text>En el aeropuerto, antes del vuelo.</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="6" />
+      <speak-player>
+        <text>En el país de destino.</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="7" />
+      <speak-player>
+        <text>En nuestro banco antes del viaje.</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="8" />
+      <speak-player>
+        <text>En el avión, con otros pasajeros.</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="9" />
+    </option-node>
+    <dialogue-node nodeindex="6" editor-x="880" editor-y="408">
+      <speak-char idTarget="invisible">
+        <resources name="No name" />
+        <text>Incorrecto. Si bien es recomendable tener algo de efectivo en la moneda de destino antes de salir, las oficinas de cambio de los aeropuertos suelen ofrecer tasas peores que las de los bancos.</text>
+      </speak-char>
+      <condition />
+      <child nodeindex="10" />
+    </dialogue-node>
+    <dialogue-node nodeindex="7" editor-x="766" editor-y="592">
+      <speak-char idTarget="invisible">
+        <resources name="No name" />
+        <text>Incorrecto. Siempre es recomendable cambiar la moneda en el país de salida para disponer de metálico a tu llegada.</text>
+      </speak-char>
+      <condition />
+      <child nodeindex="10" />
+    </dialogue-node>
+    <dialogue-node nodeindex="8" editor-x="573" editor-y="412">
+      <speak-char idTarget="invisible">
+        <resources name="No name" />
+        <text>Correcto. Por lo general, los bancos ofrecen un tipo de cambio cercano al real con una comisión del 3%, que suele resultar la opción más rentable.</text>
+      </speak-char>
+      <condition />
+      <child nodeindex="10" />
+      <effect>
+        <increment var="preguntasAcertadas" value="1" />
+        <condition />
+      </effect>
+    </dialogue-node>
+    <dialogue-node nodeindex="9" editor-x="1080" editor-y="595">
+      <speak-char idTarget="invisible">
+        <resources name="No name" />
+        <text>Incorrecto. Nunca cambies dinero de maneras no reguladas, y menos sin conocer las tasas de cambio vigentes en cada momento.</text>
+      </speak-char>
+      <condition />
+      <child nodeindex="10" />
+    </dialogue-node>
+    <dialogue-node nodeindex="10" editor-x="59" editor-y="823">
+      <speak-char idTarget="invisible">
+        <resources name="No name" />
+        <text>¿Se puede subir al avión con armas en el equipaje de mano?</text>
+      </speak-char>
+      <condition />
+      <child nodeindex="11" />
+    </dialogue-node>
+    <option-node nodeindex="11" random="yes" keepShowing="yes" preListening="yes" editor-x="294" editor-y="823" x="294" y="823">
+      <speak-player>
+        <text>Sí, si son pequeñas.</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="12" />
+      <speak-player>
+        <text>Solo armas blancas.</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="12" />
+      <speak-player>
+        <text>Solo aquellas sin riesgo de explosión.</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="12" />
+      <speak-player correct="true">
+        <text>No, nunca.</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="13" />
+    </option-node>
+    <dialogue-node nodeindex="12" editor-x="567" editor-y="820">
+      <speak-char idTarget="invisible">
+        <resources name="No name" />
+        <text>Incorrecto. Las armas están prohibidas en los equipajes de mano o de cabina, incluso con licencia.</text>
+      </speak-char>
+      <condition />
+      <child nodeindex="14" />
+    </dialogue-node>
+    <dialogue-node nodeindex="13" editor-x="804" editor-y="945">
+      <speak-char idTarget="invisible">
+        <resources name="No name" />
+        <text>Correcto. Las armas están prohibidas en los equipajes de mano o de cabina, incluso con licencia.</text>
+      </speak-char>
+      <condition />
+      <child nodeindex="14" />
+      <effect>
+        <increment var="preguntasAcertadas" value="1" />
+        <condition />
+      </effect>
+    </dialogue-node>
+    <dialogue-node nodeindex="14" editor-x="47" editor-y="1223">
+      <speak-char idTarget="invisible">
+        <resources name="No name" />
+        <text>¿Pueden introducirse bebidas en el equipaje de mano al pasar el control de seguridad?</text>
+      </speak-char>
+      <condition />
+      <child nodeindex="15" />
+    </dialogue-node>
+    <option-node nodeindex="15" random="yes" keepShowing="yes" preListening="yes" editor-x="282" editor-y="1223" x="282" y="1223">
+      <speak-player>
+        <text>Sí, en recipientes de menos de 100 ml, dentro de una bolsa transparente.</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="16" />
+      <speak-player>
+        <text>Si es agua, sin problema.</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="17" />
+      <speak-player>
+        <text>Agua en recipientes pequeños, refrescos en su propia lata.</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="17" />
+      <speak-player>
+        <text>Solo si sus grados de alcohol son menores de 30.0.</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="17" />
+    </option-node>
+    <dialogue-node nodeindex="16" editor-x="552" editor-y="1220">
+      <speak-char idTarget="invisible">
+        <resources name="No name" />
+        <text>Correcto. Las bebidas, como cualquier líquido de fuera del aeropuerto, debe pasar el control en recipientes de 100ml o menos y dentro de una bolsa transparente.</text>
+      </speak-char>
+      <condition />
+      <child nodeindex="18" />
+      <effect>
+        <increment var="preguntasAcertadas" value="1" />
+        <condition />
+      </effect>
+    </dialogue-node>
+    <dialogue-node nodeindex="17" editor-x="787" editor-y="1372">
+      <speak-char idTarget="invisible">
+        <resources name="No name" />
+        <text>Incorrecto. Cualquier líquido introducido por el punto de control del aeropuerto debe estar introducido en un recipiente de 100ml o menos, y dentro de una bolsa transparente.</text>
+      </speak-char>
+      <condition />
+      <child nodeindex="18" />
+    </dialogue-node>
+    <dialogue-node nodeindex="18" editor-x="35" editor-y="1583">
+      <speak-char idTarget="invisible">
+        <resources name="No name" />
+        <text>¿De cuánto es el tiempo mínimo recomendado para llegar al aeropuerto antes del vuelo?</text>
+      </speak-char>
+      <condition />
+      <child nodeindex="19" />
+    </dialogue-node>
+    <option-node nodeindex="19" random="yes" keepShowing="yes" preListening="yes" editor-x="270" editor-y="1583" x="270" y="1583">
+      <speak-player>
+        <text>A su hora exacta, para que te dejen pasar antes por el control.</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="20" />
+      <speak-player>
+        <text>Tres horas.</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="21" />
+      <speak-player>
+        <text>Mejor acampar desde el día anterior.</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="20" />
+      <speak-player>
+        <text>Una hora antes si el vuelo es de corta distancia.</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="20" />
+    </option-node>
+    <dialogue-node nodeindex="20" editor-x="773" editor-y="1739">
+      <speak-char idTarget="invisible">
+        <resources name="No name" />
+        <text>Incorrecto. El tiempo mínimo recomendado como norma general para llegar al aeropuerto es de tres horas antes del despegue, aunque cuanto mayor sea el margen, mejor.</text>
+      </speak-char>
+      <condition />
+      <child nodeindex="22" />
+    </dialogue-node>
+    <dialogue-node nodeindex="21" editor-x="564" editor-y="1592">
+      <speak-char idTarget="invisible">
+        <resources name="No name" />
+        <text>Correcto. El tiempo mínimo recomendado como norma general para llegar al aeropuerto es de tres horas antes del despegue, aunque cuanto mayor sea el margen, mejor.</text>
+      </speak-char>
+      <condition />
+      <child nodeindex="22" />
+      <effect>
+        <increment var="preguntasAcertadas" value="1" />
+        <condition />
+      </effect>
+    </dialogue-node>
+    <dialogue-node nodeindex="22" editor-x="38" editor-y="1936">
+      <speak-char idTarget="invisible">
+        <resources name="No name" />
+        <text>¿Que debemos hacer con los dispositivos móviles durante el vuelo?</text>
+      </speak-char>
+      <condition />
+      <child nodeindex="23" />
+    </dialogue-node>
+    <option-node nodeindex="23" random="yes" keepShowing="yes" preListening="yes" editor-x="273" editor-y="1936" x="273" y="1936">
+      <speak-player>
+        <text>Mantenerlos encendidos por si hay un accidente.</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="24" />
+      <speak-player>
+        <text>Ponerlos en modo avión.</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="24" />
+      <speak-player>
+        <text>Apagarlos.</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="24" />
+      <speak-player>
+        <text>Apagarlos al despegar y aterrizar, durante el vuelo pueden mantenerse en modo avión.</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="25" />
+    </option-node>
+    <dialogue-node nodeindex="24" editor-x="545" editor-y="1944">
+      <speak-char idTarget="invisible">
+        <resources name="No name" />
+        <text>Incorrecto. Los dispositivos electrónicos deben estar en modo avión durante el vuelo, y apagados en el aterrizaje y el despegue, ya que pueden afectar a los instrumentos del avión.</text>
+      </speak-char>
+      <condition />
+      <child nodeindex="26" />
+    </dialogue-node>
+    <dialogue-node nodeindex="25" editor-x="759" editor-y="2097">
+      <speak-char idTarget="invisible">
+        <resources name="No name" />
+        <text>Correcto. Incluso si se dispone de un modo avión, los dispositivos electrónicos deben estar apagados durante el aterrizaje y despegue.</text>
+      </speak-char>
+      <condition />
+      <child nodeindex="26" />
+      <effect>
+        <increment var="preguntasAcertadas" value="1" />
+        <condition />
+      </effect>
+    </dialogue-node>
+    <dialogue-node nodeindex="26" editor-x="31" editor-y="2330">
+      <speak-char idTarget="invisible">
+        <resources name="No name" />
+        <text>¿Puedes viajar con el DNI o el pasaporte caducados?</text>
+      </speak-char>
+      <condition />
+      <child nodeindex="27" />
+    </dialogue-node>
+    <option-node nodeindex="27" random="yes" keepShowing="yes" preListening="yes" editor-x="266" editor-y="2330" x="266" y="2330">
+      <speak-player>
+        <text>No, nunca.</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="28" />
+      <speak-player>
+        <text>Si, si no sales del país.</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="29" />
+      <speak-player>
+        <text>Sí, si el operario de la puerta de vuelo te lo permite.</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="29" />
+      <speak-player>
+        <text>Sí, si el billete se compró antes de la fecha de caducidad.</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="29" />
+    </option-node>
+    <dialogue-node nodeindex="28" editor-x="524" editor-y="2332">
+      <speak-char idTarget="invisible">
+        <resources name="No name" />
+        <text>Correcto. Sin un documento de identidad válido no se puede embarcar en ningún vuelo, ya sea nacional o internacional.</text>
+      </speak-char>
+      <condition />
+      <child nodeindex="30" />
+      <effect>
+        <increment var="preguntasAcertadas" value="1" />
+        <condition />
+      </effect>
+    </dialogue-node>
+    <dialogue-node nodeindex="29" editor-x="728" editor-y="2498">
+      <speak-char idTarget="invisible">
+        <resources name="No name" />
+        <text>Incorrecto. Nunca se puede volar con un documento que no esté en vigor, ya sea dentro de tu país o fuera.</text>
+      </speak-char>
+      <condition />
+      <child nodeindex="30" />
+    </dialogue-node>
+    <dialogue-node nodeindex="30" editor-x="39" editor-y="2720">
+      <speak-char idTarget="invisible">
+        <resources name="No name" />
+        <text>¿Qué medidas debe tener el equipaje de mano?</text>
+      </speak-char>
+      <condition />
+      <child nodeindex="31" />
+    </dialogue-node>
+    <option-node nodeindex="31" random="yes" keepShowing="yes" preListening="yes" editor-x="274" editor-y="2720" x="274" y="2720">
+      <speak-player>
+        <text>Entre uno y dos metros de largo por cincuenta centímetros de ancho.</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="32" />
+      <speak-player>
+        <text>Cada compañía tiene sus propias medidas, que hay que consultarlas antes del vuelo.</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="33" />
+      <speak-player>
+        <text>Si cabe en el maletero del coche, cabe en el avión.</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="32" />
+      <speak-player>
+        <text>Aproximadamente, dos palmos y medio, tres si tienes las manos pequeñas.</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="32" />
+    </option-node>
+    <dialogue-node nodeindex="32" editor-x="735" editor-y="2862">
+      <speak-char idTarget="invisible">
+        <resources name="No name" />
+        <text>Incorrecto. Las medidas estándar son de 56 x 45 x 25 cm, aunque pueden variar en función de la compañía. Lo mejor es comprobarlas con tiempo antes del vuelo en la página de tu compañía.</text>
+      </speak-char>
+      <condition />
+      <child nodeindex="34" />
+    </dialogue-node>
+    <dialogue-node nodeindex="33" editor-x="527" editor-y="2724">
+      <speak-char idTarget="invisible">
+        <resources name="No name" />
+        <text>Correcto. Si bien las medidas estándar son de 56 x 45 x 25 cm, cada compañía puede poner sus propias medidas, y es necesario comprobarlas por precaución al hacer la maleta.</text>
+      </speak-char>
+      <condition />
+      <child nodeindex="34" />
+      <effect>
+        <increment var="preguntasAcertadas" value="1" />
+        <condition />
+      </effect>
+    </dialogue-node>
+    <dialogue-node nodeindex="34" editor-x="23" editor-y="3100">
+      <speak-char idTarget="invisible">
+        <resources name="No name" />
+        <text>¿Cuándo es recomendable hacer el check-in para obtener la tarjeta de embarque?</text>
+      </speak-char>
+      <condition />
+      <child nodeindex="35" />
+    </dialogue-node>
+    <option-node nodeindex="35" random="yes" keepShowing="yes" preListening="yes" editor-x="258" editor-y="3100" x="258" y="3100">
+      <speak-player>
+        <text>Por lo general, a partir de 24 horas antes del vuelo, aunque depende de la compañía.</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="36" />
+      <speak-player>
+        <text>En la puerta de embarque según llegues al aeropuerto.</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="37" />
+      <speak-player>
+        <text>En el control de seguridad, al identificarte.</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="37" />
+      <speak-player>
+        <text>Al comprar los billetes, aunque quede mucho para el viaje.</text>
+        <resources name="No name" />
+      </speak-player>
+      <condition />
+      <child nodeindex="37" />
+    </option-node>
+    <dialogue-node nodeindex="36" editor-x="695" editor-y="3087">
+      <speak-char idTarget="invisible">
+        <resources name="No name" />
+        <text>Correcto. La mayoría de las compañías habilitan el check-in a falta de 24 horas para el vuelo, algunas incluso antes, y lo recomendable es hacerlo con tiempo para no ir con prisas al aeropuerto.</text>
+      </speak-char>
+      <condition />
+      <end-conversation>
+        <effect>
+          <increment var="preguntasAcertadas" value="1" />
+          <condition />
+        </effect>
+      </end-conversation>
+    </dialogue-node>
+    <dialogue-node nodeindex="37" editor-x="703" editor-y="3285">
+      <speak-char idTarget="invisible">
+        <resources name="No name" />
+        <text>Incorrecto. La mayoría de las compañías no habilitan el check-in hasta las 24 horas anteriores al vuelo, y lo recomendable es hacerlo tan pronto como esté activo.</text>
+      </speak-char>
+      <condition />
+      <end-conversation />
+    </dialogue-node>
+  </graph-conversation>
+  <slidescene id="siguiente" start="no" idTarget="paperspleaseMaria" destinyX="-2147483648" destinyY="2147483647" transitionTime="2" transitionType="5" next="new-scene" class="accesible" type="cutscene">
+    <documentation>
+    </documentation>
+    <effect>
+      <increment var="Escena" value="1" />
+      <condition />
+    </effect>
+    <resources name="No name">
+      <asset type="slides" uri="assets/animation/Siguiente.eaa.xml" />
+    </resources>
+    <name>
+    </name>
+  </slidescene>
+  <slidescene id="siguiente2" start="no" idTarget="papersMarcos" destinyX="-2147483648" destinyY="-2147483648" transitionTime="0" transitionType="0" next="new-scene" class="accesible" type="cutscene">
+    <documentation>
+    </documentation>
+    <effect>
+      <increment var="Escena" value="1" />
+      <condition />
+    </effect>
+    <resources name="No name">
+      <asset type="slides" uri="assets/animation/Siguiente.eaa.xml" />
+    </resources>
+    <name>
+    </name>
+  </slidescene>
+  <slidescene id="siguiente3" start="no" idTarget="papersLicinia" destinyX="-2147483648" destinyY="-2147483648" transitionTime="0" transitionType="0" next="new-scene" class="accesible" type="cutscene">
+    <documentation>
+    </documentation>
+    <effect>
+      <increment var="Escena" value="1" />
+      <condition />
+    </effect>
+    <resources name="No name">
+      <asset type="slides" uri="assets/animation/Siguiente.eaa.xml" />
+    </resources>
+    <name>
+    </name>
+  </slidescene>
+  <slidescene id="siguiente4" start="no" idTarget="papersNathan" destinyX="-2147483648" destinyY="2147483647" transitionTime="0" transitionType="0" next="new-scene" class="accesible" type="cutscene">
+    <documentation>
+    </documentation>
+    <effect>
+      <increment var="Escena" value="1" />
+      <condition />
+    </effect>
+    <resources name="No name">
+      <asset type="slides" uri="assets/animation/Siguiente.eaa.xml" />
+    </resources>
+    <name>
+    </name>
+  </slidescene>
+  <atrezzoobject id="maria">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/María Felisa.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+  </atrezzoobject>
+  <atrezzoobject id="Marcos">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/marcos.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+  </atrezzoobject>
+  <atrezzoobject id="docMarcos">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/p marcos.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+  </atrezzoobject>
+  <atrezzoobject id="billeteMarcos">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/b Marcos.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+  </atrezzoobject>
+  <atrezzoobject id="Licinia">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/5.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+  </atrezzoobject>
+  <atrezzoobject id="Nathan">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/Nathan.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+  </atrezzoobject>
+  <atrezzoobject id="maletaVacia2">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/maletaVacia.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+  </atrezzoobject>
+  <atrezzoobject id="docNathan">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/dni Nathan.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+  </atrezzoobject>
+  <atrezzoobject id="bNathan">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/b Nathan.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+  </atrezzoobject>
+  <atrezzoobject id="maletaBotella">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/maletaBotella.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+  </atrezzoobject>
+  <atrezzoobject id="jorge">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/Jorge Torres.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+  </atrezzoobject>
+  <atrezzoobject id="docjorge">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/d Jorge.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+  </atrezzoobject>
+  <atrezzoobject id="bjorge">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/bJorge.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+  </atrezzoobject>
+  <atrezzoobject id="gideon">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/Gideon Evans.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+  </atrezzoobject>
+  <atrezzoobject id="docgideon">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/d Gideon.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+  </atrezzoobject>
+  <atrezzoobject id="bgideon">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/b Gideon.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+  </atrezzoobject>
+  <atrezzoobject id="alizee">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/Alizee Feraud.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+  </atrezzoobject>
+  <atrezzoobject id="balizee">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/b Alizee .png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+  </atrezzoobject>
+  <atrezzoobject id="docalizee">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/p Alizee.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+  </atrezzoobject>
+  <atrezzoobject id="sophie">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/Sophie.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+  </atrezzoobject>
+  <atrezzoobject id="bsophie">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/b Sophie.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+  </atrezzoobject>
+  <atrezzoobject id="docsophie">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/p Sophie.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+  </atrezzoobject>
+  <atrezzoobject id="denis">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/Almeida (2).png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+  </atrezzoobject>
+  <atrezzoobject id="bdenis">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/b Denis.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+  </atrezzoobject>
+  <atrezzoobject id="docdenis">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/d denis.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+  </atrezzoobject>
+  <atrezzoobject id="doclicinia">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/p Licinia.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+  </atrezzoobject>
+  <atrezzoobject id="blicinia">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/b Licinia.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+  </atrezzoobject>
+  <atrezzoobject id="horaprim">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/primero.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+  </atrezzoobject>
+  <atrezzoobject id="hora15">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/segundo.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+  </atrezzoobject>
+  <atrezzoobject id="horatres">
+    <resources name="No name">
+      <asset type="image" uri="assets/image/tercero.png" />
+      <asset type="icon" uri="assets/special/EmptyIcon.png" />
+    </resources>
+    <description>
+      <name>
+      </name>
+      <brief>
+      </brief>
+      <detailed>
+      </detailed>
+    </description>
+  </atrezzoobject>
+</eAdventure>
